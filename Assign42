@@ -1,0 +1,16 @@
+def evenodd(A): 
+   e = [] 
+   o = [] 
+   for i in A: 
+      if (i % 2 == 0): 
+         e.append(i) 
+      else: 
+         o.append(i) 
+   print(*e,' ',*o) 
+
+A=list()
+n=int(input())
+for i in range(int(n)):
+   k=int(input())
+   A.append(k)
+evenodd(A)
